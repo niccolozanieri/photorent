@@ -18,6 +18,10 @@ public:
         return brand;
     }
 
+    float get_price_per_hour() {
+        return price_per_hour;
+    }
+
 private:
     std::string model;
     std::string brand;
