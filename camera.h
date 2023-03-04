@@ -6,9 +6,9 @@
 #ifndef PHOTORENT_CAMERA_H
 #define PHOTORENT_CAMERA_H
 
-class Camera {
+class camera {
 public:
-    explicit Camera(const std::string &model, const std::string &brand);
+    explicit camera(const std::string &model, const std::string &brand);
 private:
     std::string model;
     std::string brand;

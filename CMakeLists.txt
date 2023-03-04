@@ -3,4 +3,4 @@ project(photorent)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(photorent main.cpp camera.h camera.cpp lens.h lens.cpp)
+add_executable(photorent main.cpp camera.h camera.cpp lens.h lens.cpp photorent_shop.h photorent_shop.cpp)
