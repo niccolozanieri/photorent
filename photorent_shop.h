@@ -7,9 +7,13 @@
 #ifndef PHOTORENT_PHOTORENT_SHOP_H
 #define PHOTORENT_PHOTORENT_SHOP_H
 
-class photorent_shop {
+class PhotorentShop {
 public:
-    explicit photorent_shop(const std::string &name, const std::string &location);
+    explicit PhotorentShop(const std::string &name, const std::string &location);
+
+    std::string get_name() {
+        return name;
+    }
 private:
     std::string name;
     std::string location;

@@ -6,9 +6,18 @@
 #ifndef PHOTORENT_LENS_H
 #define PHOTORENT_LENS_H
 
-class lens {
+class Lens {
 public:
-    explicit lens(const std::string &model, const std::string &brand, int f_l, float max_a, float min_a);
+    explicit Lens(const std::string &model, const std::string &brand, int f_l, float max_a, float min_a);
+
+    std::string get_model() {
+        return model;
+    }
+
+    std::string get_brand() {
+        return brand;
+    }
+
 private:
     std::string model;
     std::string brand;

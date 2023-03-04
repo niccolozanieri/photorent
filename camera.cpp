@@ -4,7 +4,7 @@
 #include "camera.h"
 
 
-camera::camera(const std::string &model, const std::string &brand) {
+Camera::Camera(const std::string &model, const std::string &brand) {
     this -> model = model;
     this -> brand = brand;
 }

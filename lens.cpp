@@ -4,7 +4,7 @@
 
 #include "lens.h"
 
-lens::lens(const std::string &model, const std::string &brand, int f_l, float max_a, float min_a) {
+Lens::Lens(const std::string &model, const std::string &brand, int f_l, float max_a, float min_a) {
     this -> model = model;
     this -> brand = brand;
     this -> focal_length = f_l;
