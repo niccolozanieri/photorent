@@ -12,6 +12,7 @@ public:
 private:
     std::string model;
     std::string brand;
+    float price_per_hour{20};
 };
 
 #endif //PHOTORENT_CAMERA_H

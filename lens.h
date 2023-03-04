@@ -15,5 +15,6 @@ private:
     int focal_length;
     float maximum_aperture;
     float minimum_aperture;
+    float price_per_hour{20};
 };
 #endif //PHOTORENT_LENS_H
